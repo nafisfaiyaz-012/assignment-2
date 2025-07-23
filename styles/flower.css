@@ -157,6 +157,18 @@
 .loverdesc{
     flex: 1;
 }
+.parent-plantslover-loverboy{
+    position: relative;
+    
+}
+.plants-lover > img{
+    position: absolute;
+    top: -140px;
+    left: 347px;
+    
+    max-width: 286px;
+    max-height: 286px;
+}
 
 @media screen and (max-width: 546px) {
     .container {
@@ -202,4 +214,7 @@
         padding-left: 25px;
         text-align: left;
     }
+    .plants-lover > img{
+    display: none;
+}
 }
