@@ -143,6 +143,20 @@
     width: 100%;
 }
 
+/* plants lover section */
+.plants-lover{
+    display: flex;
+    gap: 60px;
+}
+.loverboy{
+    flex: 1;
+}
+.loverboy img{
+    width: 100%;
+}
+.loverdesc{
+    flex: 1;
+}
 
 @media screen and (max-width: 546px) {
     .container {
@@ -178,5 +192,14 @@
 
     .our-plants {
         margin-top: 0;
+    }
+
+    .plants-lover{
+        flex-direction: column;
+        gap: 18px;
+    }
+    .plants-lover .loverdesc ul{
+        padding-left: 25px;
+        text-align: left;
     }
 }
