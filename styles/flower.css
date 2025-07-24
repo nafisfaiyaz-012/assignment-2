@@ -261,6 +261,7 @@ body{
 
 .column1-desc {
     color: rgba(0, 0, 0, 0.5);
+    width: 350px;
 }
 
 .column2 ul {
@@ -485,6 +486,9 @@ body{
     .footer {
         flex-direction: column;
         padding-left: 20px;
+    }
+    .column1-desc{
+        width: 100%;
     }
 
     .column2 ul {
