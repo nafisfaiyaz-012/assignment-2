@@ -1,7 +1,14 @@
 /* Importing google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-
+@keyframes spinner {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
 .font-noto-serif {
     font-family: "Noto Serif", serif;
     font-optical-sizing: auto;
@@ -181,6 +188,7 @@ body{
     left: 30%; */
     max-width: 286px;
     max-height: 286px;
+    animation: spinner 10s linear 1s infinite alternate;
 }
 
 /* join section styles */
