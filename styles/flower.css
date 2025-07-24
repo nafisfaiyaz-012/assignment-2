@@ -64,6 +64,7 @@ body{
     height: 50px;
     padding: 15px 80px;
     font-weight: 600;
+    cursor: pointer;
 }
 
 
@@ -237,6 +238,7 @@ body{
     height: 50px;
     font-weight: 600;
     margin-top: 25px;
+    cursor: pointer;
 
 }
 
@@ -376,6 +378,7 @@ body{
     border: none;
     border-bottom: 2px solid white;
     font-weight: 600;
+    cursor: pointer;
 }
 
 
