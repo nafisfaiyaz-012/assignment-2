@@ -304,6 +304,10 @@ body{
     display: flex;
     gap: 24px;
 }
+.column4 img{
+    height: 25px;
+    width: 25px;
+}
 
 
 /* Latest deals styles */
