@@ -42,6 +42,7 @@ body{
 .description {
     font-size: 1.3rem;
     max-width: 570px;
+    color: rgba(0, 0, 0, 0.5);
 }
 
 .text-center {
@@ -299,6 +300,7 @@ body{
 .latest-desc {
     font-weight: 500;
     margin-bottom: 120px;
+    color: rgba(0, 0, 0, 0.5);
 }
 
 .image-container {
